@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone100: hsl(30, 54%, 90%);
+  --stone150: hsl(30, 18%, 87%);
+  --stone600: hsl(30, 10%, 34%);
+  --stone900: hsl(24, 5%, 18%);
+  --brown800: hsl(14, 45%, 36%);
+  --rose800: hsl(332, 51%, 32%);
+  --rose50: hsl(330, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--stone100);
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  color: var(--stone600);
+  font-size: 0.49rem;
+}
+
+.out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inn {
+  background-color: var(--white);
+  width: 22%;
+  margin: 55px 0;
+  border-radius: 11px;
+  padding: 18px;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 500;
+}
+
+span {
+  font-weight: bold;
+  color: var(--stone600);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--stone900)
+}
+
+.intro {
+  margin-bottom: 15px;
+  border-radius: px;
+  color: var(--stone600);
+}
+
+.pt {
+  background-color: var(--rose50);
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: var(--rose800);
+  font-size: 0.6rem;
+  margin-left: 12px;
+  margin-bottom: 6px;
+}
+
+.l1::before {
+  content: "\2022";
+  color: var(--rose800);
+  margin-right: 10px;
+  margin-left: 16px;
+}
+
+.l1 {
+  color: var(--stone600);
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: var(--brown800);
+  margin-bottom: 8px;
+}
+
+.ul2 {
+  list-style-type: disc;
+  margin-left: 12px;
+}
+
+.L2::marker {
+  color: var(--brown800);
+  font-size: 5px;
+}
+
+.l2 {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.ing {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: var(--stone150);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.ol {
+  list-style-type: numbers;
+}
+
+.L3::marker {
+  color: var(--brown800);
+  font-weight: bold;
+}
+
+.L3 {
+  margin-left: 10px;
+}
+
+.l3 {
+  margin-left: 5px;
+  line-height: 0.75rem;
+  margin-bottom: 4px;
+}
+
+.inst {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: var(--stone150);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.nut {
+  margin-bottom: 14px;
+}
+
+.l4 {
+  position: relative;
+  left: 16px;
+  font-weight: normal;
+}
+
+#l4a {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: var(--stone150);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+#l4b {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: var(--stone150);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+#l4c {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: var(--stone150);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+.u1,
+.u2,
+.u3,
+.u4 {
+  color: var(--brown800);
+}
+
+.u1 {
+  position: relative;
+  left: 135px;
+}
+
+.u2 {
+  position: relative;
+  left: 142px;
+}
+
+.u3 {
+  position: relative;
+  left: 122px;
+}
+
+.u4 {
+  position: relative;
+  left: 152px;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  bottom: 10px;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+
+  .inn {
+    background-color: var(--white);
+    width: 169px;
+    margin: 55px 0;
+    border-radius: 0;
+    padding: 0px;
+  }
+
+  .media {
+    padding: 10px;
+  }
+
+  img {
+    max-width: 100;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+    line-height: 17px;
+  }
+
+  .u1 {
+    position: relative;
+    left: 49px;
+  }
+
+  .u2 {
+    position: relative;
+    left: 56px;
+  }
+
+  .u3 {
+    position: relative;
+    left: 36px;
+  }
+
+  .u4 {
+    position: relative;
+    left: 66px;
+
+  }
+
+  .ul3 {
+    margin-bottom: 10px;
+  }
+
+}
