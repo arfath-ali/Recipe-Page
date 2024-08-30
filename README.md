@@ -1,1 +1,1 @@
-This is a static website named Blog Preview Card, created using only HTML and CSS.
+This is a static website named Recipe page, created using only HTML and CSS.
